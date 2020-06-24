@@ -1,10 +1,15 @@
 package orientadoObjeto;
 
-public class contaCorrente {
+public abstract class ContaCorrente {
 
+	/*
 	int opcao, nSaques;
-	String cCorrente,nomeCli,empChoice,depChoice,nomeDestinatarioTransf,cpfDestinatarioTransf,bancoDestinatarioTransf,agDestinatarioTransf,contaDestinatarioTransf;
-	double saldo,saque,salario,valorEmprestado,emprestimoaPagar,credDisp,depositar,transferir;
+	String empChoice,depChoice,nomeDestinatarioTransf,cpfDestinatarioTransf,bancoDestinatarioTransf,agDestinatarioTransf,contaDestinatarioTransf;
+	double saldo,saque,valorEmprestado,emprestimoaPagar,depositar,transferir;
+	*/
+	
+	String nome, ag, cc; 
+	Double saldo,salario;
 	
 	
 }
